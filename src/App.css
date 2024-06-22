@@ -1,0 +1,41 @@
+/* App.css */
+
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+.button-container {
+    margin-bottom: 20px; /* Adds space below the buttons */
+}
+
+.button-container button {
+    margin: 0 10px; /* Adds horizontal spacing between buttons */
+    padding: 10px 20px;
+    background-color: #3498db; /* Example primary color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+
+/* Styling for all pop-up forms */
+.Popup, .Popup1, .Popup2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Set a reasonable max-width */
+    max-height: 80%; /* Limit height if necessary */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max-height */
+}
